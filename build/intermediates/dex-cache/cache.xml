@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/build/intermediates/pre-dexed/debug/classes-67619b1e1fc2a841a18ce247fcec762b1f9cd0cb.jar" />
+    </item>
+    <item
+        jar="/Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-48a5cb24741a8f4c8eaa0fcb8d767b10144fc56a.jar" />
+    </item>
+    <item
+        jar="/Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/libs/graphview-3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="12c054c623caacf9db0e4b9719b3ebb0e85959aa">
+        <dex dex="/Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/build/intermediates/pre-dexed/debug/graphview-3.1-80cf4e3b44de4c6bf540f693fc2a408d7f797ab6.jar" />
+    </item>
+    <item
+        jar="/Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer/app/build/intermediates/pre-dexed/debug/classes-46d0df7cbca837962014fd9787ca3a76d2dd1e45.jar" />
+    </item>
+    <item
+        jar="/Users/wonjoonsohn/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-3448920e083cbc35def4fc0f527dfd89a462ffb8.jar" />
+    </item>
+    <item
+        jar="/Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-3aa1c313d62549c79122299adb671f56325d3ba8.jar" />
+    </item>
+
+</items>

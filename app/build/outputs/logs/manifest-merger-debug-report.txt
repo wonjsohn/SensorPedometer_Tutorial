@@ -1,0 +1,106 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:2:1-56:12
+	xmlns:android
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:3:7-44
+		INJECTED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:4:31-58
+	android:versionCode
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:4:7-30
+		INJECTED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml
+	android:installLocation
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:5:7-37
+receiver#co.infinum.WearActionReceiver
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:8:5-61
+	android:name
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:8:15-59
+uses-feature#android.hardware.type.watch
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:11:5-13:35
+	android:required
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:12:9-51
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.STORAGE
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:16:5-66
+	android:name
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:16:22-63
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:17:22-77
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:18:5-83
+	android:name
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:18:22-81
+uses-sdk
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:20.0.0] /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:16:5-42
+	android:targetSdkVersion
+		INJECTED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:20:15-41
+		INJECTED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:23:5-24:21
+	android:name
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:23:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:25:2-26:24
+	android:name
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:25:19-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:28:5-68
+	android:name
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:28:22-65
+application
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:30:5-54:19
+MERGED from [com.android.support:support-v4:20.0.0] /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:17:5-19
+	android:label
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:30:52-84
+	android:icon
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:30:18-51
+activity#name.wonjoon.sohn.pedometer.SensorPedometer_Tutorial
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:31:9-38:20
+	android:label
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:32:19-51
+	android:configChanges
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:33:19-54
+	android:name
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:31:19-59
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:36:27-74
+activity#name.wonjoon.sohn.pedometer.Settings
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:42:9-48:20
+	android:label
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:43:17-58
+	android:name
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:42:19-43
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:44:13-47:29
+category#android.intent.category.DEFAULT
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:46:17-76
+	android:name
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:46:27-73
+service#name.wonjoon.sohn.pedometer.StepService
+ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:52:9-47
+	android:name
+		ADDED from /Users/wonjoonsohn/Documents/workspace_androidstudio/SensorPedometer_Tutorial/app/src/main/AndroidManifest.xml:52:18-45

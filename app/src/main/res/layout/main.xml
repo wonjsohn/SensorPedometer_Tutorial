@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/margin" 
+    android:background="@color/screen_background">
+    
+    
+   	<LinearLayout
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+    
+	    <LinearLayout android:id="@+id/row_1"
+	        android:orientation="horizontal" 
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content" 
+	        android:paddingBottom="@dimen/row_spacing">
+	    
+	        <LinearLayout android:id="@+id/box_steps"
+	            android:orientation="vertical"
+	            android:layout_width="fill_parent" 
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal"
+	            android:paddingRight="@dimen/margin"
+	            android:layout_weight="1">
+	        
+	            <TextView android:id="@+id/step_value"
+	                android:textSize="@dimen/value"
+	                android:layout_width="fill_parent" 
+	                android:layout_height="wrap_content"
+	                android:gravity="center_horizontal" 
+	                android:background="@color/display_background" 
+	                android:paddingLeft="@dimen/padding" 
+	                android:paddingRight="@dimen/padding" 
+	                android:paddingTop="@dimen/padding"
+	                android:text=""/>
+	            <TextView android:id="@+id/step_units"
+	                android:gravity="center_horizontal"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:textSize="@dimen/units" 
+	                android:text="@string/steps" 
+	                android:background="@color/display_background" 
+	                android:paddingBottom="@dimen/padding"/>
+	
+	        </LinearLayout>
+	
+	        <LinearLayout android:id="@+id/box_distance"
+	            android:orientation="vertical"
+	            android:layout_width="fill_parent" 
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal"
+	            android:layout_weight="1">
+	            
+	            <TextView android:id="@+id/distance_value"
+	                android:textSize="@dimen/value"
+	                android:layout_width="fill_parent" 
+	                android:layout_height="wrap_content"
+	                android:gravity="center_horizontal" 
+	                android:background="@color/display_background" 
+	                android:paddingTop="@dimen/padding" 
+	                android:paddingRight="@dimen/padding" 
+	                android:paddingLeft="@dimen/padding"
+	                android:text=""/>
+	            <TextView android:id="@+id/distance_units"
+	                android:gravity="center_horizontal"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:textSize="@dimen/units"
+	                android:text="@string/kilometers" 
+	                android:background="@color/display_background" 
+	                android:paddingBottom="@dimen/padding"/>
+	
+	        </LinearLayout>
+	    </LinearLayout>
+	        
+	    <LinearLayout android:id="@+id/row_2"
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingBottom="@dimen/row_spacing">
+
+	        <LinearLayout android:id="@+id/box_pace"
+	            android:orientation="vertical"
+	            android:layout_height="wrap_content"
+	            android:paddingRight="@dimen/margin"
+	            android:layout_width="fill_parent"
+	            android:layout_weight="1">
+
+	            <TextView android:id="@+id/pace_value"
+	                android:gravity="center_horizontal"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@color/display_background"
+	                android:textSize="@dimen/small_value"
+	                android:paddingLeft="@dimen/padding"
+	                android:paddingRight="@dimen/padding"
+	                android:paddingTop="@dimen/padding"
+	                android:text=""/>
+	            <TextView android:id="@+id/pace_units"
+	                android:gravity="center_horizontal"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:textSize="@dimen/units"
+	                android:text="@string/steps_per_minute"
+	                android:paddingBottom="@dimen/padding"
+	                android:background="@color/display_background"/>
+
+	        </LinearLayout>
+
+	        <LinearLayout android:id="@+id/box_speed"
+	            android:orientation="vertical"
+	            android:paddingRight="@dimen/margin"
+	            android:layout_height="wrap_content"
+	            android:layout_width="fill_parent"
+	            android:layout_weight="1">
+
+	           <TextView android:id="@+id/speed_value"
+	                android:gravity="center_horizontal"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@color/display_background"
+	                android:textSize="@dimen/small_value"
+	                android:paddingLeft="@dimen/padding"
+	                android:paddingRight="@dimen/padding"
+	                android:paddingTop="@dimen/padding"
+	                android:text=""/>
+	            <TextView android:id="@+id/speed_units"
+	                android:gravity="center_horizontal"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:textSize="@dimen/units"
+	                android:text="@string/kilometers_per_hour"
+	                android:paddingBottom="@dimen/padding"
+	                android:background="@color/display_background"/> -
+	        </LinearLayout>
+
+	      <LinearLayout android:id="@+id/box_calories"
+	            android:orientation="vertical"
+	            android:layout_height="wrap_content"
+	            android:layout_width="fill_parent"
+	            android:layout_weight="1">
+
+	                <TextView android:id="@+id/threshold_value"
+	                android:gravity="center_horizontal"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@color/display_background"
+	                android:textSize="@dimen/small_value"
+	                android:paddingLeft="@dimen/padding"
+	                android:paddingRight="@dimen/padding"
+	                android:paddingTop="@dimen/padding" />
+	                <TextView android:id="@+id/calories_units"
+	                android:gravity="center_horizontal"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:textSize="@dimen/units"
+	                android:text="@string/threshold"
+	                android:paddingBottom="@dimen/padding"
+	                android:background="@color/display_background"/>
+
+	        </LinearLayout>
+
+	    </LinearLayout>
+
+	    <LinearLayout
+	        android:id="@+id/row_3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center|center_vertical"
+	        android:orientation="horizontal"
+	        android:paddingBottom="@dimen/row_spacing" >
+
+
+
+	        <TextView
+	            android:id="@+id/status"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="status"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	        <ToggleButton
+	            android:id="@+id/logWifiToggleButton1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="logWifiToggleButton"
+	            android:textOff="@string/toggle_turn_off"
+	            android:textOn="@string/toggle_turn_on" />
+
+			<EditText
+				android:id="@+id/ipadr"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:ems="10"  />
+	    </LinearLayout>
+
+
+
+
+	<!-- Desired pace/speed row -->
+	
+	   <LinearLayout
+	       android:id="@+id/desired_pace_control"
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+	       android:layout_weight="10.76"
+	       android:gravity="center_horizontal"
+	       android:orientation="horizontal"
+	       android:paddingTop="@dimen/row_spacing" >
+	
+	       <Button
+	           android:id="@+id/button_desired_pace_lower"
+	           android:layout_width="@dimen/button"
+	           android:layout_height="@dimen/button"
+	           android:text="-"
+	           android:textSize="@dimen/button_sign" />
+	
+	       <LinearLayout
+	           android:layout_width="@dimen/desired_pace_width"
+	           android:layout_height="wrap_content"
+	           android:gravity="center_horizontal"
+	           android:orientation="vertical" >
+	
+	           <TextView
+	               android:id="@+id/desired_pace_label"
+	               android:layout_width="fill_parent"
+	               android:layout_height="wrap_content"
+	               android:gravity="center_horizontal"
+	               android:text="@string/desired_pace" />
+	
+	           <TextView
+	               android:id="@+id/desired_pace_value"
+	               android:layout_width="@dimen/desired_pace_width"
+	               android:layout_height="wrap_content"
+	               android:gravity="center_horizontal"
+	               android:textSize="@dimen/desired_pace" />
+	       </LinearLayout>
+	
+	       <Button
+	           android:id="@+id/button_desired_pace_raise"
+	           android:layout_width="@dimen/button"
+	           android:layout_height="@dimen/button"
+	           android:text="+"
+	           android:textSize="@dimen/button_sign" />
+	   </LinearLayout>
+	
+	   <LinearLayout
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:layout_weight="76.33"
+	       android:orientation="vertical" >
+	
+
+	       <ToggleButton
+	           android:id="@+id/datalog"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:text="data logging" />
+	
+	   </LinearLayout>
+	   
+	   <!--  graphing -->
+
+	   <LinearLayout
+	       android:id="@+id/graph00"
+	       android:layout_width="fill_parent"
+	       android:layout_height="100dip"
+	       android:orientation="vertical" >
+	   </LinearLayout>
+	   		
+		   	<LinearLayout
+			    android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="100dip"
+				android:id="@+id/graph0" />
+	
+	   		<LinearLayout
+			    android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="100dip"
+				android:id="@+id/graph1" />
+	
+			<LinearLayout
+			    android:id="@+id/graph2"
+			    android:layout_width="fill_parent"
+			    android:layout_height="100dip"
+			    android:orientation="vertical" />
+			
+			<LinearLayout
+			    android:id="@+id/graph3"
+			    android:layout_width="fill_parent"
+			    android:layout_height="100dip"
+			    android:orientation="vertical" />
+		</LinearLayout>
+   
+</ScrollView>

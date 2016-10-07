@@ -1,0 +1,103 @@
+<resources>
+    <string-array name="sensitivity_preference">
+        <item>@string/extra_high</item>
+        <item>@string/very_high</item>
+        <item>@string/high</item>
+        <item>@string/higher</item>
+        <item>@string/medium</item>
+        <item>@string/lower</item>
+        <item>@string/low</item>
+        <item>@string/very_low</item>
+        <item>@string/extra_low</item>
+    </string-array>
+
+    <string-array name="sensitivity_preference_values">
+        <item>0.5</item>
+        <item>1.0</item>
+        <item>1.5</item><!-- 10 * 1.5^(-2) -->
+        <item>2.0</item><!-- 10 * 1.5^(-1) -->
+        <item>2.5</item>
+        <item>3.0</item><!--     10 * 1.5      -->
+        <item>4.0</item><!--   10 * 1.5^2    -->
+        <item>5.0</item>
+        <item>6.0</item>
+    </string-array>
+
+
+    <string-array name="target_display_address">
+        <item>@string/google_glass</item>
+        <item>@string/ZTE_warp_elite</item>
+        <item>@string/Gpad</item>
+        <item>@string/MXV</item>
+        <item>@string/Odroid</item>
+    </string-array>
+
+    <string-array name="target_display_address_values">
+        <item>F8:8F:CA:11:1B:C7</item>
+        <item>4C:16:F1:B4:1E:49</item>
+        <item>64:BC:0C:A0:A1:1E</item>
+        <item>34:C3:D2:63:B0:94</item>
+        <item>00:1A:7D:DA:71:08</item>
+    </string-array>
+
+    <string-array name="operation_level_preference">
+        <item>@string/run_in_background</item>
+        <item>@string/keep_screen_on</item>
+        <item>@string/wake_up</item>
+    </string-array>
+
+    <string-array name="operation_level_preference_values">
+        <item>run_in_background</item>
+        <item>keep_screen_on</item>
+        <item>wake_up</item>
+    </string-array>
+
+    <string-array name="units_preference">
+        <item>@string/units_metric</item>
+        <item>@string/units_imperial</item>
+    </string-array>
+
+    <string-array name="units_preference_values">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+
+    <string-array name="exercise_type_preference">
+        <item>@string/exercise_type_running</item>
+        <item>@string/exercise_type_walking</item>
+    </string-array>
+    <string-array name="exercise_type_preference_values">
+        <item>running</item>
+        <item>walking</item>
+    </string-array>
+
+    <string-array name="maintain_preference">
+        <item>@string/maintain_nothing</item>
+        <item>@string/maintain_pace</item>
+        <item>@string/maintain_speed</item>
+    </string-array>
+    <string-array name="maintain_preference_values">
+        <item>none</item>
+        <item>pace</item>
+        <item>speed</item>
+    </string-array>
+
+    <string-array name="speaking_interval_preference">
+        <item>@string/interval_15_seconds</item>
+        <item>@string/interval_30_seconds</item>
+        <item>@string/interval_1_minute</item>
+        <item>@string/interval_2_minutes</item>
+        <item>@string/interval_5_minutes</item>
+        <item>@string/interval_10_minutes</item>
+    </string-array>
+    <string-array name="speaking_interval_preference_values">
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+
+
+</resources>
